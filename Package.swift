@@ -73,6 +73,7 @@ for target in package.targets {
             .enableUpcomingFeature("InternalImportsByDefault"),
             .enableUpcomingFeature("IsolatedDefaultValues"),
             .enableUpcomingFeature("RegionBasedIsolation"),
+            .enableExperimentalFeature("AccessLevelOnImport")
         ]
     )
     target.swiftSettings = settings
