@@ -70,10 +70,10 @@ for target in package.targets {
             .enableUpcomingFeature("ImplicitOpenExistentials"),
             .enableUpcomingFeature("ImportObjcForwardDeclarations"),
             .enableUpcomingFeature("InferSendableFromCaptures"),
-            //.enableUpcomingFeature("InternalImportsByDefault"),
+            .enableUpcomingFeature("InternalImportsByDefault"),
             .enableUpcomingFeature("IsolatedDefaultValues"),
             .enableUpcomingFeature("RegionBasedIsolation"),
-            .enableExperimentalFeature("AccessLevelOnImport")
+            //.enableExperimentalFeature("AccessLevelOnImport")
         ]
     )
     target.swiftSettings = settings

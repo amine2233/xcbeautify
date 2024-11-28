@@ -1,5 +1,3 @@
-import Foundation
-
 /// Maps raw `xcodebuild` output to a `CaptureGroup`.
 package final class Parser {
     private lazy var captureGroupTypes: [any CaptureGroup.Type] = [

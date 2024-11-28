@@ -1,5 +1,4 @@
 import Colorizer
-import Foundation
 
 struct TerminalRenderer: OutputRendering {
     let colored: Bool

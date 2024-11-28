@@ -1,5 +1,4 @@
 import Colorizer
-import Foundation
 
 struct TeamCityRenderer: OutputRendering {
     let colored: Bool

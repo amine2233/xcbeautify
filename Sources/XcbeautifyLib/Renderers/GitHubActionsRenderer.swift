@@ -1,5 +1,3 @@
-import Foundation
-
 struct GitHubActionsRenderer: OutputRendering {
     private enum AnnotationType: String {
         case notice

@@ -1,5 +1,3 @@
-import Foundation
-
 package protocol CaptureGroup {
     static var outputType: OutputType { get }
     static var regex: XCRegex { get }
