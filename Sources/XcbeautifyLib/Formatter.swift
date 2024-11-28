@@ -1,5 +1,3 @@
-import Foundation
-
 /// Formats `CaptureGroup` instances appropriate for the specified `renderer` context.
 package struct Formatter {
     private let colored: Bool

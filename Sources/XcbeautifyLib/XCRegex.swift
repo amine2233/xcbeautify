@@ -1,6 +1,9 @@
+#if compiler(>=6.0)
+public import Foundation
+#else
 import Foundation
+#endif
 
-// `NSRegularExpression` is marked as `@unchecked Sendable`.
 // Match the definition here.
 package final class XCRegex: @unchecked Sendable {
     private let pattern: String
