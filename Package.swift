@@ -67,12 +67,13 @@ for target in package.targets {
             // TODO: Enable GlobalConcurrency
             // Currently, it's disabled since `XMLCoder` surfaces warnings.
             // .enableUpcomingFeature("GlobalConcurrency"),
-            // .enableUpcomingFeature("ImplicitOpenExistentials"),
+            .enableUpcomingFeature("ImplicitOpenExistentials"),
             .enableUpcomingFeature("ImportObjcForwardDeclarations"),
             .enableUpcomingFeature("InferSendableFromCaptures"),
-            // .enableUpcomingFeature("InternalImportsByDefault"),
+            //.enableUpcomingFeature("InternalImportsByDefault"),
             .enableUpcomingFeature("IsolatedDefaultValues"),
             .enableUpcomingFeature("RegionBasedIsolation"),
+            .enableExperimentalFeature("AccessLevelOnImport")
         ]
     )
     target.swiftSettings = settings
