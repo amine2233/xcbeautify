@@ -1,4 +1,8 @@
+#if compiler(>=6.0)
+public import Foundation
+#else
 import Foundation
+#endif
 
 extension String {
     var lastPathComponent: String {

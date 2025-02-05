@@ -1,5 +1,3 @@
-import Foundation
-
 extension String {
     func coloredTime() -> String {
         guard let time = Double(self) else { return self }

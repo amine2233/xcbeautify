@@ -1,5 +1,3 @@
-import Foundation
-
 /// The single type responsible for formatting output.
 public struct XCBeautifier {
     private let parser = Parser()
